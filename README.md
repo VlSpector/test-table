@@ -12,7 +12,7 @@ Single click on a cell should change the color of the cell (one click changes th
 Technical requirements: Only for tablets, Jetpack Compose, Modularization (UI, Domain, Data. Also, random data is taken from the data layer).
 
 
-### Notes tom implementation
+### Implementation notes
 - Since it was requested to use mocked data, MockedTableApi was introduced to simulate BE bahviour
 - No data persistence was requested so no Room added, user edits are cached in MockedTableApi as if edits were sent to BE
 - The Table rows count is implemented via passing limit to the MockedTableApi
